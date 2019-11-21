@@ -1,6 +1,4 @@
-<html>
-<head></head>
-<body font-color="red">
+<?php include 'header.php' ?>
 <form action="chapter.php" method="post">
 
 <table border='0' width='480px' cellpadding='0' cellspacing='0' align='center'>
@@ -21,6 +19,10 @@
 <tr>
     <td align='center'><b>Duration:</b></td>
     <td><input type='text' name='dura'></td>
+</tr>
+<tr>
+    <td align='center'><b>Description:</b></td>
+    <td><input type='text' name='desc'></td>
 </tr>
 <tr> <td>&nbsp;</td> </tr>
 
@@ -48,5 +50,4 @@
 
 </table>
 </form>
-</body>
-</html>
+<?php include 'footer.php' ?>
